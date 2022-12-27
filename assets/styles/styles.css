@@ -1,3 +1,154 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    background-color: #252525;
+    color: #fff;
+}
+
+.primary-bg-color {
+    background-color: #252525;
+}
+
+.secondary-bg-color {
+    background-color: #C09578;
+}
+
+.light-bg-color {
+    background-color: #FCF5EB;
+}
+
+.dark-bg-color {
+    background-color: #101010;
+}
+
+.primary-color {
+    color: #C09578;
+}
+
+.secondary-color {
+    color: #626262;
+}
+
+.light-color {
+    color: #FCF5EB;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #C09578;
+    transform: 0.5s;
+}
+
+.btn:hover {
+    background-color: #C09578;
+    border: 1px solid #C09578;
+}
+
+/* NAVBAR */
+
+#navbar-items-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar-items-container .navbar-nav {
+    flex-direction: row;
+}
+
+#navbar-items-container .navbar-nav li {
+    position: relative;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#navbar-container a,
+#navbar-container button {
+    color: #FFF;
+}
+
+#navbar-container i {
+    font-size: 20px;
+}
+
+#navbar-container span {
+    position: absolute;
+    top: -8px;
+    right: -0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EF3636;
+    text-align: center;
+}
+
+#bag-item span {
+    left: 30px;
+}
+
+#navbar-container .navbar-brand {
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#search-form {
+    width: 100%;
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+#search-form input {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+}
+
+#search-form input::placeholder {
+    color: #FFF;
+}
+
+#search-form input:focus {
+    box-shadow: none;
+}
+
+@media(min-width: 768px) {
+    #navbar-items-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #navbar-items-container .navbar-nav li {
+        position: relative;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+    }
+
+    #search-form {
+        width: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+    #search-form {
+        width: 40%;
+    }
+}
+
+/* BOTTOM NAVBAR */
+
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+#bottom-navbar-container a {
+    color: #FFF;
+    font-weight: bold
+}
+
+#bottom-navbar-container button {
+    font-size: 1.5em;
+}
