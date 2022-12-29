@@ -152,3 +152,57 @@ body {
 #bottom-navbar-container button {
     font-size: 1.5em;
 }
+
+
+/* Banners */
+
+#main-banners,
+#main-banners img {
+    max-height: 90vh;
+}
+
+#main-banners .carousel-caption {
+    padding: 0.5em 0.5em;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+#main-banners h5 {
+    font-weight: bold;
+}
+
+#main-banners p {
+    margin-bottom: 0;
+    font-size: 8px;
+}
+
+@media(min-width: 768px) {
+    #main-banners,
+    #main-banners img {
+        max-height: 600px;
+    } 
+
+    #main-banners .carousel-caption {
+        padding: 1.5em 1em;
+        max-width: 60%;
+        bottom: 2em;
+    }
+
+    #main-banners h5 {
+        font-size: 2em;
+    }
+
+    #main-banners p {
+        font-size: 1em;
+    }
+}
+
+@media(min-width: 992px) {
+    #main-banners h5 {
+        font-size: 3em;
+    }
+
+    #main-banners p {
+        font-size: 1.5em;
+    }
+}
