@@ -35,10 +35,14 @@ body {
     color: #FCF5EB;
 }
 
+.dark-color {
+    color: #101010; 
+}
+
 .btn {
     background-color: transparent;
     border: 1px solid #C09578;
-    transform: 0.5s;
+    transition: 0.5s;
 }
 
 .btn:hover {
@@ -165,6 +169,7 @@ body {
     padding: 0.5em 0.5em;
     max-width: 50%;
     margin: 0 auto;
+    bottom: 0.5em;
 }
 
 #main-banners h5 {
@@ -204,5 +209,62 @@ body {
 
     #main-banners p {
         font-size: 1.5em;
+    }
+}
+
+/* MINI BANNERS */
+#mini-banners-container {
+    position: relative;
+    z-index: 10;
+}
+
+.mini-banner-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#mini-banners-container img {
+    height: 250px;
+}
+
+.mini-banner-text-container h2 {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.mini-banner-text-container a {
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+#mini-banners-container .mini-banner {
+    z-index: 1;
+}
+
+#mini-banner1 a:hover,
+#mini-banner3 a:hover {
+    color: #C09578;
+}
+
+#mini-banner2 a:hover {
+    color: #101010;
+}
+
+@media(min-width: 768px) {
+    #mini-banners-container {
+        padding: 0 1.5em;
+        margin-top: -3em;
+    }
+
+    #main-banners .carousel-caption {
+        bottom: 3em;
+    }
+
+    .mini-banner-text-container h2 {
+        font-weight: bold;
+        font-size: 1.5em;
+        text-transform: uppercase;
     }
 }
