@@ -268,3 +268,51 @@ body {
         text-transform: uppercase;
     }
 }
+
+/* BEST SELLERS */
+
+#best-sellers-container h1 {
+    font-weight: 1000;
+    font-size: 3.5em;
+}
+
+#best-sellers-container img {
+    width: 140px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#best-sellers-container .card {
+    border: none;
+}
+
+#best-sellers-container .card-text {
+    font-weight: bold;
+}
+
+#best-sellers-container h5 {
+    font-weight: bold;
+}
+
+/* DESTAQUES */
+
+#destaques-container img {
+    height: 300px;
+}
+
+#desconto-info {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#destaques-container h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+#destaques-container .btn {
+    padding: 0.8em 1.6em;
+    font-weight: bold;
+}
