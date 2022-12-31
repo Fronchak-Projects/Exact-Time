@@ -50,6 +50,29 @@ body {
     border: 1px solid #C09578;
 }
 
+.title {
+    font-weight: 1000;
+    font-size: 3.5em;
+}
+
+.card img {
+    width: 140px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+}
+
+.card .card-text {
+    font-weight: bold;
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
 /* NAVBAR */
 
 #navbar-items-container {
@@ -269,31 +292,6 @@ body {
     }
 }
 
-/* BEST SELLERS */
-
-#best-sellers-container h1 {
-    font-weight: 1000;
-    font-size: 3.5em;
-}
-
-#best-sellers-container img {
-    width: 140px;
-    height: 200px;
-    margin: 0 auto;
-}
-
-#best-sellers-container .card {
-    border: none;
-}
-
-#best-sellers-container .card-text {
-    font-weight: bold;
-}
-
-#best-sellers-container h5 {
-    font-weight: bold;
-}
-
 /* DESTAQUES */
 
 #destaques-container img {
@@ -315,4 +313,26 @@ body {
 #destaques-container .btn {
     padding: 0.8em 1.6em;
     font-weight: bold;
+}
+
+/* NOVIDADES */
+
+#novidades-container .d-md-flex {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#novidades-container h4 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+#novidades-container .row .d-md-flex .primary-color {
+    font-size: 0.9em;
+}
+
+@media(min-width: 992px) {
+    #novidades-container h4 {
+        font-size: 3em;
+    }
 }
