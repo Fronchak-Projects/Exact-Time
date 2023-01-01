@@ -23,6 +23,10 @@ body {
     background-color: #101010;
 }
 
+.gray-background {
+    background-color: #626262;
+}
+
 .primary-color {
     color: #C09578;
 }
@@ -375,4 +379,54 @@ body {
 
 #instagram-6 {
     background-image: url(../imgs/insta6.jpg);
+}
+
+/* CONTACT FOOTER */
+
+#container-container a {
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 0.8em;
+}
+
+#container-container a:hover {
+    color: #C09578;
+}
+
+#container-container .col-12 {
+    border-bottom: 1px solid #626262;
+}
+
+#container-container p {
+    font-size: 1.2em;
+}
+
+#container-container h3 {
+    font-size: 2.5em;
+}
+
+#container-container .logo {
+    font-weight: bold;
+}
+
+#container-container .phone {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+@media(min-width: 768px) {
+    #container-container .col-12 {
+        border-bottom: none;
+    }
+
+    #container-container {
+        border-top: 1px solid #626262;
+        border-bottom: 1px solid #626262;
+    }
+
+    #container-container .row .col-12:nth-child(2) {
+        border-right: 1px solid #626262;
+        border-left: 1px solid #626262;
+    }
 }
