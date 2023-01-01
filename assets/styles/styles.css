@@ -336,3 +336,43 @@ body {
         font-size: 3em;
     }
 }
+
+/* GALLERY */
+
+.gallery-image {
+    background-position: center;
+    background-size: cover;
+
+    transition: 0.5s;
+    border: 3px solid #101010;
+    height: 225px;
+    cursor: pointer;
+}
+
+.gallery-image:hover {
+    border-color: #C09578;
+}
+
+#instagram-1 {
+    background-image: url(../imgs/insta1.jpg);
+}
+
+#instagram-2 {
+    background-image: url(../imgs/insta2.jpg);
+}
+
+#instagram-3 {
+    background-image: url(../imgs/insta3.jpg);
+}
+
+#instagram-4 {
+    background-image: url(../imgs/insta4.jpg);
+}
+
+#instagram-5 {
+    background-image: url(../imgs/insta5.jpg);
+}
+
+#instagram-6 {
+    background-image: url(../imgs/insta6.jpg);
+}
